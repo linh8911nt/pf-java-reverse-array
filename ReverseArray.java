@@ -21,7 +21,7 @@ public class ReverseArray {
         }
         System.out.printf("%-20s%s", "Phần tử trong mảng: ", "");
         for (int element : numbers) {
-            System.out.print(numbers[element - 1] + "\t");
+            System.out.print(element + "\t");
         }
 
         //Đảo ngược các phần tử và in ra mảng đã đảo ngược
@@ -32,7 +32,7 @@ public class ReverseArray {
         }
         System.out.printf("%-20s%s", "Mảng đảo ngược: ", "");
         for (int element : numbers) {
-            System.out.print(numbers[element - 1] + "\t");
+            System.out.print(element + "\t");
         }
     }
 }
